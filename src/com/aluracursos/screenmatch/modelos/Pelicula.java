@@ -1,67 +1,22 @@
 package com.aluracursos.screenmatch.modelos;
 
-public class Pelicula {
+import com.aluracursos.screenmatch.calculos.Clasificable;
 
-    private String nombre;
-    private int fechaDeLanzamiento;
-    private int duracionEnMinutos;
-    private boolean incluidoEnElPlan;
+public class Pelicula extends Titulo implements Clasificable {
 
-    private double sumaEvaluaciones;
+    private String director;
 
-    private int totalEvaluaciones;
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getDirector() {
+        return director;
     }
 
-    public void setFechaDeLanzamiento(int fechaDeLanzamiento) {
-        this.fechaDeLanzamiento = fechaDeLanzamiento;
+    public void setDirector(String director) {
+        this.director = director;
     }
 
-    public void setDuracionEnMinutos(int duracionEnMinutos) {
-        this.duracionEnMinutos = duracionEnMinutos;
-    }
-
-    public void setIncluidoEnElPlan(boolean incluidoEnElPlan) {
-        this.incluidoEnElPlan = incluidoEnElPlan;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public int getFechaDeLanzamiento() {
-        return fechaDeLanzamiento;
-    }
-
-    public int getDuracionEnMinutos() {
-        return duracionEnMinutos;
-    }
-
-    public boolean isIncluidoEnElPlan() {
-        return incluidoEnElPlan;
-    }
-
-    public int getTotalEvaluaciones(){
-        return totalEvaluaciones;
-    }
-
-    public void muestraFichaTecnica(){
-
-        System.out.println("Mi película es: " + nombre);
-        System.out.println("Su fecha de lanzamiento es: " + fechaDeLanzamiento);
-        System.out.println("Duración en minutos: " + duracionEnMinutos);
-
-    }
-
-    public void evalua(double nota){
-        sumaEvaluaciones += nota;
-        totalEvaluaciones++;
-    }
-
-    public double calculaMedia(){
-        return sumaEvaluaciones / totalEvaluaciones;
+    @Override
+    public int getClasificable() {
+        return (int) (calculaMedia() / 2);
     }
 }
 

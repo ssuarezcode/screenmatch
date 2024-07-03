@@ -1,0 +1,50 @@
+[
+  {
+    "Nombre": "Carol",
+    "FechaDeLanzamiento": 2015,
+    "DuracionEnMinutos": 118,
+    "IncluidoEnElPlan": false,
+    "SumaEvaluaciones": 0.0,
+    "TotalEvaluaciones": 0
+  },
+  {
+    "Nombre": "Saving Face",
+    "FechaDeLanzamiento": 2004,
+    "DuracionEnMinutos": 91,
+    "IncluidoEnElPlan": false,
+    "SumaEvaluaciones": 0.0,
+    "TotalEvaluaciones": 0
+  },
+  {
+    "Nombre": "Fried Green Tomatoes",
+    "FechaDeLanzamiento": 1991,
+    "DuracionEnMinutos": 130,
+    "IncluidoEnElPlan": false,
+    "SumaEvaluaciones": 0.0,
+    "TotalEvaluaciones": 0
+  },
+  {
+    "Nombre": "Show Me Love",
+    "FechaDeLanzamiento": 1998,
+    "DuracionEnMinutos": 89,
+    "IncluidoEnElPlan": false,
+    "SumaEvaluaciones": 0.0,
+    "TotalEvaluaciones": 0
+  },
+  {
+    "Nombre": "The Half of It",
+    "FechaDeLanzamiento": 2020,
+    "DuracionEnMinutos": 104,
+    "IncluidoEnElPlan": false,
+    "SumaEvaluaciones": 0.0,
+    "TotalEvaluaciones": 0
+  },
+  {
+    "Nombre": "Booksmart",
+    "FechaDeLanzamiento": 2019,
+    "DuracionEnMinutos": 102,
+    "IncluidoEnElPlan": false,
+    "SumaEvaluaciones": 0.0,
+    "TotalEvaluaciones": 0
+  }
+]
